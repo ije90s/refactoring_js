@@ -1,0 +1,29 @@
+{
+  "name": "refactoring",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec babel-node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ije90s/refactoring_js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ije90s/refactoring_js/issues"
+  },
+  "homepage": "https://github.com/ije90s/refactoring_js#readme",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/node": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
